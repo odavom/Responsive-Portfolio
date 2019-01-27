@@ -236,7 +236,7 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   #masthead {
-    margin-top: 0;
+    margin-top: -10;
   }
   nav {
     width: 45%;
