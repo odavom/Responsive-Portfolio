@@ -223,15 +223,33 @@ input[type=submit] {
   } 
   .main-section {
     margin-top: 0px;
+    width: 75%;
+  }
+  .work {
+    width: 45%;
+    height: auto;
+  }
+  .work:nth-child(odd) {
+    margin-left: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  #masthead {
+    margin-top: 0;
+  }
   nav {
     width: 45%;
   }
   .main-section {
     margin-top: 0px;
+  }
+  .work {
+    width: 42%;
+    height: auto;
+  }
+  .work:nth-child(odd) {
+    margin-left: 5px;
   }
 }
 
@@ -251,5 +269,17 @@ input[type=submit] {
   }
   .main-section {
     margin-top: 0;
+    width: auto;
+    height: auto;
+    float: none;
+    overflow: auto;
+  }
+  .work {
+    width: auto;
+    height: auto;
+  }
+  .work:nth-child(even) {
+    margin-right: 0px;
   }
 }
+
